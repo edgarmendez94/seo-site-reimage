@@ -49,8 +49,8 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/* Changed from hero to background to keep css from breaking */
+.background {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -70,10 +70,15 @@ p {
 }
 
 .content {
+    /* deleted all the header arguments and copied the margin bottom they had in them to this new content section */
+   /* also the middle section of the 3 split main content had a bigger header than the section on top of it, so i made them equal */
+    font-size: 20px;
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
+
 
 .benefits {
     margin-right: 20px;
@@ -173,28 +178,14 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* Changed from footer to copyright to keep css from breaking */
+.copyright {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* Changed from footer to copyright to keep css from breaking */
+.copyright h2 {
     font-size: 20px;
 }
